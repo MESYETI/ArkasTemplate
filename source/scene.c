@@ -22,6 +22,8 @@ static void Render(Scene* scene) {
 
 Scene TemplateScene(void) {
 	return (Scene) {
+		.type        = SCENE_TYPE_OTHER,
+		.name        = "Template Scene",
 		.init        = &Init,
 		.free        = &Free,
 		.handleEvent = &HandleEvent,
