@@ -1,0 +1,3 @@
+[submodule "lib/ArkasEngine"]
+	path = lib/ArkasEngine
+	url = https://github.com/mesyeti/ArkasEngine
