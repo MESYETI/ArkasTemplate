@@ -1,8 +1,8 @@
 #include <Arkas/engine.h>
 #include "scene.h"
 
-int main(void) {
-	Engine_Init("Arkas Template");
+int main(int argc, const char** argv) {
+	Engine_Init("Arkas Template", argc, argv);
 
 	// usually you would add the first scene here, instead i'm just enabling
 	// the console
